@@ -130,11 +130,11 @@ function computeOptions(yearmin, yearmax) {
       triggerOn: 'click',
     },
     title: [{
-      text: 'a) YEAR GROWTH OF PAPERS ON NATURAL DESIGN',
+      text: 'a) DISTRIBUTION OF PAPERS ON NATURAL DESIGN', //'a) YEAR GROWTH OF PAPERS ON NATURAL DESIGN',
       left: '40%',
       textAlign: 'center'
     }, {
-      text: 'b) ACM CCS CLUSTERS',
+      text: 'b) ACM CCS', //b) ACM CCS CLUSTERS
       left: '85%',
       textAlign: 'center'
     }],
