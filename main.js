@@ -147,6 +147,9 @@ function computeOption() {
         type: 'value',
         min: 0.5,
         max: 5.5,
+        title: {
+          text: 'Defnition'
+      }
       },
     ],
     yAxis: [
