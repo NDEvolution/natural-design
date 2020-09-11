@@ -59,7 +59,7 @@ $('#slider-overall').find('.ui-slider-handle').hide();
 // filters
 let deactivatedFilters = []
 const filters = {
-  '#predefined-filters': ['Origin of clusters', 'Top-rated'],
+  '#predefined-filters': ['Top-rated','Remaining'], //Origin of clusters
   '#keywords': ['NUI', 'Natural Interaction', 'Computation']
 }
 for (const [fid, filter] of Object.entries(filters)) {
