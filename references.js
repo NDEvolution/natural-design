@@ -41,10 +41,10 @@ const references = {
         "ccs":"Human-centered Computing",
         "title": "The Design of Social Drones: A Review of Studies on Autonomous Flyers in Inhabited Environments.",
         "year": 2019,
-        "scores": [5, 5, 4],
+        "scores": [5, 4, 5],
         "category": "Top-rated",
         "keyword": "Natural Interaction",
-        "section": "Mehmet Aydin Baytas, Damla Cay, Yuchong Zhang, Mohammad Obaid, Asim Evren Yantac, and Morten Fjeld. 2019. The Design of Social Drones: A Review of Studies on Autonomous Flyers in Inhabited Environments. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI ‚2019). Association for Computing Machinery, New York, NY, USA, Paper 250, 1-13. DOI:https://doi.org/10.1145/3290605.3300480",
+        "section": "Mehmet Aydin Baytas, Damla Cay, Yuchong Zhang, Mohammad Obaid, Asim Evren Yantac, and Morten Fjeld. 2019. The Design of Social Drones: A Review of Studies on Autonomous Flyers in Inhabited Environments. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI‚ 2019). Association for Computing Machinery, New York, NY, USA, Paper 250, 1-13. DOI:https://doi.org/10.1145/3290605.3300480",
     }, 
     "06_san04": {
         "ccs":"Computing Methodologies",
