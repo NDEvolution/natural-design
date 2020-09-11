@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHI 2020: A Reflection on Natural Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="header-border">
+    <div id="header">
+        <div id="logo">
+            <p class="logotext1">A Reflection on </p>
+            <p class="logotext2">Natural Design</p>
+        </div>
+    </div>
+</div>
+
+<div id="body-border">
+<div id="body">
+
+<ul id="tabs" class="nav nav-tabs" role="tablist">
+<li class="nav-item" role="presentation">
+    <a class="nav-link active" id="grid-tab" data-toggle="tab" href="#grid" role="tab" aria-controls="grid" aria-selected="true">Grid Chart</a>
+</li>
+<li class="nav-item" role="presentation">
+    <a class="nav-link" id="bar-tab" data-toggle="tab" href="#bar" role="tab" aria-controls="bar" aria-selected="false">Bar Chart</a>
+</li>
+</ul>
+<div id="charts" class="tab-content">
+<div class="tab-pane fade show active" id="grid" role="tabpanel" aria-labelledby="grid-tab">
+
+    <div class="tab-pane fade show active" id="v-pills-grid" role="tabpanel" aria-labelledby="v-pills-grid-tab">
+        <div class="row">
+            <div class="col-7">
+                <div id="grid-fig"></div>
+            </div>
+            <div id="grid-controls" class="col-5">
+            <h3>FILTERS</h3>
+            <div class="col controls">
+                <div id="vertical-controls" class="row-6 filter-group">
+                    <h5>SCORE CATEGORY</h5>
+                    <div id="vertical-slider-controls" class="row">
+                        <div class="col-1">
+                            <p>&nbsp;</p>
+                            <p>5</p>
+                            <p>4</p>
+                            <p>3</p>
+                            <p>2</p>
+                            <p>1</p>
+                        </div>
+                        <div class="col-9">
+                            <div class="row score-sliders">
+                                <div class="col-4">
+                                    <div class="col">
+                                        <div class="row-2">
+                                        <div id="button-definition">Definition</div>
+                                        </div>
+                                        <div class="row-10">
+                                        <div id="slider-definition" class="slider-vertical"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="col">
+                                        <div class="row-2">
+                                        <div id="button-definition">Intention</div>
+                                        </div>
+                                        <div class="row-10">
+                                        <div id="slider-intention" class="slider-vertical"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="col">
+                                        <div class="row-2">
+                                        <div id="button-definition">Property & Modality</div>
+                                        </div>
+                                        <div class="row-10">
+                                        <div id="slider-property" class="slider-vertical"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col">
+                                <div class="row-2">
+                                <div id="button-definition">Overall</div>
+                                </div>
+                                <div class="row-10">
+                                <div id="slider-overall" class="slider-vertical"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-3 filter-group-bar">
+                    <h5>PRE-DEFINED FILTERS</h5>
+                    <div id="predefined-filters"></div>
+                    <!-- <div class="activate-button">Origin of Clusters</div>
+                    <div class="activate-button">Top-rated</div> -->
+                </div>
+                <div class="row-3 filter-group-bar">
+                    <h5>KEYWORDS IN TOP-RATED PAPERS</h5>
+                    <div id="keywords"></div>
+                    <!-- <div class="activate-button">NUI</div>
+                    <div class="activate-button">Natural Interaction</div>
+                    <div class="activate-button">Computation</div> -->
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="grid-reference" class="reference">
+            <p>Hint: click chart data to get the reference :)</p>
+            <p id="grid-text"></p>
+        </div>
+    </div>
+
+</div>
+<div class="tab-pane fade" id="bar" role="tabpanel" aria-labelledby="bar-tab">
+
+    <div class="row">
+        <div class="col-7">
+            <div id="bar-fig"></div>
+        </div>
+        <div id="bar-controls" class="col-5">
+        <h3>FILTERS</h3>
+        <div class="col controls">
+            <div class="row-3 filter-group-bar">
+                <h5>Publication Year</h5>
+                <div id="slider-year"></div>
+                <div id="year-label">
+                    <span id="year-label-left" class="noselect"></span>
+                    <span id="year-label-right" class="noselect"></span>
+                </div>
+                <p></p>
+            </div>
+            <div class="row-6 filter-group-bar">
+                <h5>ACM CCS Classification</h5>
+                <div id="acm-ccs">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="bar-reference" class="reference">
+        <strong>Hint: click chart data to get the reference :)</strong>
+        <p id="bar-text"></p>
+    </div>
+</div>
+
+</div>
+</div>
+
+<div id="footer">
+    CHI 2021
+</div>
+</div>
+
+<script src="js/jquery.3.5.1.js"></script>
+<script src="js/jquery-ui.1.12.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="references.js"></script>
+<script src="main.js"></script>
+<script src="bar.js"></script>
+</body>
+</html>
