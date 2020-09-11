@@ -143,7 +143,18 @@ function computeOption() {
     }],
     xAxis: [
       {
-        show: false,
+        name: 'DEFINITION SCORE',
+        nameLocation: 'middle',
+        nameTextStyle: {
+          fontSize: 20,
+          lineHeight: 70,
+          fontWeight: 'bolder',
+        },
+        axisLabel: { show: false},
+        axisLine: { show: false },
+        axisTick: { show: false },
+        splitLine: { show: false },
+        show: true,
         type: 'value',
         min: 0.5,
         max: 5.5,
@@ -151,7 +162,18 @@ function computeOption() {
     ],
     yAxis: [
       {
-        show: false,
+        name: 'INTENTION SCORE',
+        nameLocation: 'middle',
+        nameTextStyle: {
+          fontSize: 20,
+          lineHeight: 70,
+          fontWeight: 'bolder',
+        },
+        axisLabel: { show: false},
+        axisLine: { show: false },
+        axisTick: { show: false },
+        splitLine: { show: false },
+        show: true,
         type: 'value',
         min: 0.5,
         max: 5.5,
