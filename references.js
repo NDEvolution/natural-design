@@ -97,7 +97,7 @@ const references = {
         "ccs":"Computing Methodologies",
         "title": "Sensitive couture for interactive garment modeling and editing.",
         "year": 2011,
-        "scores": [3, 5, 4],
+        "scores": [3, 4, 5],
         "category": "Top-rated",
         "keyword": "Natural Interaction",
         "section": "Nobuyuki Umetani, Danny M. Kaufman, Takeo Igarashi, and Eitan Grinspun. 2011. Sensitive couture for interactive garment modeling and editing. ACM Trans. Graph. 30, 4, Article 90 (July 2011), 12 pages. DOI:https://doi.org/10.1145/2010324.1964985",
