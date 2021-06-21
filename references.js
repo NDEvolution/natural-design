@@ -957,7 +957,7 @@ const references = {
         "keyword": "",
         "section": "Youhei Akimoto, Anne Auger, and Tobias Glasmachers. 2018. Drift theory in continuous search spaces: expected hitting time of the (1 + 1)-ES with 1/5 success rule. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO ’18). Association for Computing Machinery, New York, NY, USA, 801–808. DOI:https://doi.org/10.1145/3205455.3205606",
     },
-    "106_hirsch21": {
+    "107_hirsch21": {
         "ccs":"Human-centered Computing",
         "title": "Shaping Concrete for Interaction.",
         "year": 2021,
@@ -966,7 +966,7 @@ const references = {
         "keyword": "NUI",
         "section": "Linda Hirsch, Beat Rossmy, and Andreas Butz. 2021. Shaping Concrete for Interaction. In <i>Proceedings of the Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction</i> (<i>TEI '21</i>). Association for Computing Machinery, New York, NY, USA, Article 6, 1–11. DOI:https://doi-org/10.1145/3430524.3440625",
     },
-    "107_meyer21": {
+    "108_meyer21": {
         "ccs":"",
         "title": "A Novel Gaze Gesture Sensor for Smart Glasses Based on Laser Self-Mixing.",
         "year": 2021,
@@ -975,7 +975,7 @@ const references = {
         "keyword": "",
         "section": "Johannes Meyer, Thomas Schlebusch, Hans Spruit, Jochen Hellmig, and Enkelejda Kasneci. 2021. A Novel Gaze Gesture Sensor for Smart Glasses Based on Laser Self-Mixing. <i>Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems</i>. Association for Computing Machinery, New York, NY, USA, Article 254, 1–6. DOI:https://doi-org/10.1145/3411763.3451621",
     },
-    "108_milliken21": {
+    "109_milliken21": {
         "ccs":"Applied Computing",
         "title": "PlanIT! A New Integrated Tool to Help Novices Design for Open-ended Projects.",
         "year": 2021,
@@ -983,15 +983,6 @@ const references = {
         "category": "Remaining",
         "keyword": "",
         "section": "Alexandra Milliken, Wengran Wang, Veronica Cateté, Sarah Martin, Neeloy Gomes, Yihuan Dong, Rachel Harred, Amy Isvik, Tiffany Barnes, Thomas Price, and Chris Martens. 2021. PlanIT! A New Integrated Tool to Help Novices Design for Open-ended Projects. <i>Proceedings of the 52nd ACM Technical Symposium on Computer Science Education</i>. Association for Computing Machinery, New York, NY, USA, 232–238. DOI:https://doi-org/10.1145/3408877.3432552",
-    },
-    "109_gravin20": {
-        "ccs":"Theory of Computation",
-        "title": "Optimal Budget-Feasible Mechanisms for Additive Valuations.",
-        "year": 2020,
-        "scores": [5, 4, 5],
-        "category": "Remaining",
-        "keyword": "",
-        "section": "Nick Gravin, Yaonan Jin, Pinyan Lu, and Chenhao Zhang. 2020. Optimal Budget-Feasible Mechanisms for Additive Valuations. <i>ACM Trans. Econ. Comput.</i> 8, 4, Article 21 (November 2020), 15 pages. DOI:https://doi-org/10.1145/3417746",
     },
     "110_mena21": {
         "ccs":"Information Systems",
