@@ -956,6 +956,15 @@ const references = {
         "category": "Remaining",
         "keyword": "",
         "section": "Youhei Akimoto, Anne Auger, and Tobias Glasmachers. 2018. Drift theory in continuous search spaces: expected hitting time of the (1 + 1)-ES with 1/5 success rule. In Proceedings of the Genetic and Evolutionary Computation Conference (GECCO ’18). Association for Computing Machinery, New York, NY, USA, 801–808. DOI:https://doi.org/10.1145/3205455.3205606",
+    },
+    "106_hirsch21": {
+        "ccs":"Human-centered Computing",
+        "title": "Shaping Concrete for Interaction.",
+        "year": 2021,
+        "scores": [5, 4, 5],
+        "category": "Top-rated",
+        "keyword": "NUI",
+        "section": "Linda Hirsch, Beat Rossmy, and Andreas Butz. 2021. Shaping Concrete for Interaction. In <i>Proceedings of the Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction</i> (<i>TEI '21</i>). Association for Computing Machinery, New York, NY, USA, Article 6, 1–11. DOI:https://doi-org.emedien.ub.uni-muenchen.de/10.1145/3430524.3440625",
     }
 
 }
