@@ -36,7 +36,7 @@ Object.values(acm_ccs).forEach(v => {
 })
 
 const year = []
-for (let i = 1979; i <= 2020; i++) {
+for (let i = 1979; i <= 2021; i++) {
  year.push(`${i}`)
 }
 
@@ -45,7 +45,7 @@ const ccs_year_papers = {
  // ccs { year : [paper1, paper2, ...]}
 }
 Object.values(acm_ccs).forEach(v => {
- const data_count = new Array(2020-1979+1)
+ const data_count = new Array(2021-1979+1)
  data_count.fill(0)
  ccs_year_papers[v.name] = {}
  Object.values(references).forEach(vv => {
@@ -165,7 +165,7 @@ function computeOptions(yearmin, yearmax) {
 }
 
 const barFig = echarts.init(document.getElementById('bar-fig'))
-barFig.setOption(computeOptions(1979, 2020))
+barFig.setOption(computeOptions(1979, 2021))
 barFig.on('click', params => {
   const refs = []
   if (params.componentSubType === 'bar') {
@@ -199,14 +199,14 @@ barFig.on('click', params => {
 
 // for year slider
 function year2percent(year) {
- return ((year-1979)*100/(2020-1979))
+ return ((year-1979)*100/(2021-1979))
 }
 $( "#slider-year" ).slider({
  range: true,
  min: 1979,
- max: 2020,
+ max: 2021,
  step: 1,
- values: [1979, 2020],
+ values: [1979, 2021],
  // HACK: need map between -3%-97%
  slide: (event, ui) => {
    if (ui.values[1] - ui.values[0] < 0) {
@@ -223,7 +223,7 @@ $( "#slider-year" ).slider({
  },
  create: (event, ui) => {
    $("#year-label-left").css('left', '-3%').text('1979');
-   $("#year-label-right").css('left', "97%").text('2020');
+   $("#year-label-right").css('left', "97%").text('2021');
  }
 }).trigger('slide')
 
