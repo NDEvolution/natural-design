@@ -1003,7 +1003,7 @@ const references = {
         "section": "David Kempe, Sixie Yu, and Yevgeniy Vorobeychik. 2020. Inducing Equilibria in Networked Public Goods Games through Network Structure Modification. In <i>Proceedings of the 19th International Conference on Autonomous Agents and MultiAgent Systems</i> (<i>AAMAS '20</i>). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 611–619.",
     },
     "112_bansal21": {
-        "ccs":"Computer systems organization",
+        "ccs":"Computer Systems Organization",
         "title": "OwLL: Accurate LoRa Localization using the TV Whitespaces.",
         "year": 2021,
         "scores": [2, 3, 1],
@@ -1012,7 +1012,7 @@ const references = {
         "section": "Atul Bansal, Akshay Gadre, Vaibhav Singh, Anthony Rowe, Bob Iannucci, and Swarun Kumar. 2021. OwLL: Accurate LoRa Localization using the TV Whitespaces. In <i>Proceedings of the 20th International Conference on Information Processing in Sensor Networks (co-located with CPS-IoT Week 2021)</i> (<i>IPSN '21</i>). Association for Computing Machinery, New York, NY, USA, 148–162. DOI:https://doi-org/10.1145/3412382.3458263",
     },
     "113_zhang20": {
-        "ccs":"Computer systems organization",
+        "ccs":"Computer Systems Organization",
         "title": "MobiPose: real-time multi-person pose estimation on mobile devices.",
         "year": 2020,
         "scores": [1, 3, 2],
