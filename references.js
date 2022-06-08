@@ -967,11 +967,7 @@ const references = {
         "section": "Linda Hirsch, Beat Rossmy, and Andreas Butz. 2021. Shaping Concrete for Interaction. In <i>Proceedings of the Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction</i> (<i>TEI '21</i>). Association for Computing Machinery, New York, NY, USA, Article 6, 1–11. DOI:https://doi-org/10.1145/3430524.3440625",
     },
     "108_meyer21": {
-<<<<<<< HEAD
         "ccs":"",
-=======
-        "ccs":"Human-centered Computing",
->>>>>>> 15ded1e1247923fdb7ab49defe8fcc7d4fe5837f
         "title": "A Novel Gaze Gesture Sensor for Smart Glasses Based on Laser Self-Mixing.",
         "year": 2021,
         "scores": [1, 3, 2],
@@ -1007,11 +1003,7 @@ const references = {
         "section": "David Kempe, Sixie Yu, and Yevgeniy Vorobeychik. 2020. Inducing Equilibria in Networked Public Goods Games through Network Structure Modification. In <i>Proceedings of the 19th International Conference on Autonomous Agents and MultiAgent Systems</i> (<i>AAMAS '20</i>). International Foundation for Autonomous Agents and Multiagent Systems, Richland, SC, 611–619.",
     },
     "112_bansal21": {
-<<<<<<< HEAD
         "ccs":"Computer systems organization",
-=======
-        "ccs":"Computer Systems Organization",
->>>>>>> 15ded1e1247923fdb7ab49defe8fcc7d4fe5837f
         "title": "OwLL: Accurate LoRa Localization using the TV Whitespaces.",
         "year": 2021,
         "scores": [2, 3, 1],
@@ -1020,11 +1012,7 @@ const references = {
         "section": "Atul Bansal, Akshay Gadre, Vaibhav Singh, Anthony Rowe, Bob Iannucci, and Swarun Kumar. 2021. OwLL: Accurate LoRa Localization using the TV Whitespaces. In <i>Proceedings of the 20th International Conference on Information Processing in Sensor Networks (co-located with CPS-IoT Week 2021)</i> (<i>IPSN '21</i>). Association for Computing Machinery, New York, NY, USA, 148–162. DOI:https://doi-org/10.1145/3412382.3458263",
     },
     "113_zhang20": {
-<<<<<<< HEAD
         "ccs":"Computer systems organization",
-=======
-        "ccs":"Computer Systems Organization",
->>>>>>> 15ded1e1247923fdb7ab49defe8fcc7d4fe5837f
         "title": "MobiPose: real-time multi-person pose estimation on mobile devices.",
         "year": 2020,
         "scores": [1, 3, 2],
