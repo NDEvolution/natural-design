@@ -1,4 +1,0 @@
-1. pie chart label cannot be displayed on the edge of the chart (workaround: two charts, but result in two types of hover colors.)
-2. grids positioning while data zooming
-3. pie chart includes zero labels
-4. select state if not clear to user
