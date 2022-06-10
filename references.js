@@ -87,7 +87,7 @@ const references = {
     "10_gra19": {
         "ccs":"Theory of Computation",
         "title": "Optimal Budget-Feasible Mechanisms for Additive Valuations.",
-        "year": 2020,
+        "year": 2019,
         "scores": [5, 4, 4],
         "category": "Top-rated",
         "keyword": "Computation",
@@ -967,7 +967,7 @@ const references = {
         "section": "Linda Hirsch, Beat Rossmy, and Andreas Butz. 2021. Shaping Concrete for Interaction. In <i>Proceedings of the Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction</i> (<i>TEI '21</i>). Association for Computing Machinery, New York, NY, USA, Article 6, 1–11. DOI:https://doi-org/10.1145/3430524.3440625",
     },
     "108_meyer21": {
-        "ccs":"Applied Computing",
+        "ccs":"Human-centered Computing",
         "title": "A Novel Gaze Gesture Sensor for Smart Glasses Based on Laser Self-Mixing.",
         "year": 2021,
         "scores": [1, 3, 2],
@@ -987,7 +987,7 @@ const references = {
     "110_mena21": {
         "ccs":"Information Systems",
         "title": "Agreement and Disagreement between True and False-Positive Metrics in Recommender Systems Evaluation.",
-        "year": 2021,
+        "year": 2020,
         "scores": [1, 1, 1],
         "category": "Remaining",
         "keyword": "",
