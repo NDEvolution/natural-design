@@ -7,7 +7,7 @@ const references = {
         "category": "Top-rated",
         "keyword": "NUI",
         "section": "David Holman and Roel Vertegaal. 2008. Organic user interfaces: designing computers in any way, shape, or form. Commun. ACM 51, 6 (June 2008), 48-55. DOI:https://doi.org/10.1145/1349026.1349037",
-    }, 
+    },
     "02_ono11": {
         "ccs":"Applied Computing",
         "title": "Space art: aesthetics design as psychological support.",
@@ -45,7 +45,7 @@ const references = {
         "category": "Top-rated",
         "keyword": "Natural Interaction",
         "section": "Mehmet Aydin Baytas, Damla Cay, Yuchong Zhang, Mohammad Obaid, Asim Evren Yantac, and Morten Fjeld. 2019. The Design of Social Drones: A Review of Studies on Autonomous Flyers in Inhabited Environments. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI‚ 2019). Association for Computing Machinery, New York, NY, USA, Paper 250, 1-13. DOI:https://doi.org/10.1145/3290605.3300480",
-    }, 
+    },
     "06_san04": {
         "ccs":"Computing Methodologies",
         "title": "Multi-Agent Patrolling with Reinforcement Learning.",
@@ -308,7 +308,7 @@ const references = {
         "category": "Top-rated",
         "keyword": "Computation",
         "section": "Andrea Passarella, Marco Conti, Chiara Boldrini, and Robin I.M. Dunbar. 2011. Modelling inter-contact times in social pervasive networks. In Proceedings of the 14th ACM international conference on Modeling, analysis and simulation of wireless and mobile systems (MSWiM ‚2011). Association for Computing Machinery, New York, NY, USA, 333-340. DOI:https://doi.org/10.1145/2068897.2068955",
-    },   
+    },
     "35_sub13": {
         "ccs":"Software and its Engineering",
         "title": "Artificial connections.",
@@ -967,7 +967,7 @@ const references = {
         "section": "Linda Hirsch, Beat Rossmy, and Andreas Butz. 2021. Shaping Concrete for Interaction. In <i>Proceedings of the Fifteenth International Conference on Tangible, Embedded, and Embodied Interaction</i> (<i>TEI '21</i>). Association for Computing Machinery, New York, NY, USA, Article 6, 1–11. DOI:https://doi-org/10.1145/3430524.3440625",
     },
     "108_meyer21": {
-        "ccs":"",
+        "ccs":"Applied Computing",
         "title": "A Novel Gaze Gesture Sensor for Smart Glasses Based on Laser Self-Mixing.",
         "year": 2021,
         "scores": [1, 3, 2],

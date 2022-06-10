@@ -13,17 +13,17 @@
 // C189D3 = General and Reference
 // D18B8B = Networks
 const acm_ccs = {
-  '1': {name: 'Software and its Engineering', color: '#9E0142'}, 
-  '2': {name: 'Theory of Computation', color: '#E95C45'}, 
-  '3': {name: 'Hardware', color: '#FDBF6E'}, 
-  '4': {name: 'Computer Systems Organization', color: '#AFA27D'}, 
+  '1': {name: 'Software and its Engineering', color: '#9E0142'},
+  '2': {name: 'Theory of Computation', color: '#E95C45'},
+  '3': {name: 'Hardware', color: '#FDBF6E'},
+  '4': {name: 'Computer Systems Organization', color: '#AFA27D'},
   '5': {name: 'Human-centered Computing', color: '#e5e88f'}, // changed
-  '6': {name: 'Information Systems', color: '#BEE49F'}, 
-  '7': {name: 'Applied Computing', color: '#B2D3CD'}, 
-  '8': {name: 'Computing Methodologies', color: '#54ADAC'}, 
-  '9': {name: 'Social and Professional Topics', color: '#5E4FA2'}, 
- '10': {name: 'General and Reference', color: '#C189D3'}, 
- '11': {name: 'Networks', color: '#D18B8B'}, 
+  '6': {name: 'Information Systems', color: '#BEE49F'},
+  '7': {name: 'Applied Computing', color: '#B2D3CD'},
+  '8': {name: 'Computing Methodologies', color: '#54ADAC'},
+  '9': {name: 'Social and Professional Topics', color: '#5E4FA2'},
+ '10': {name: 'General and Reference', color: '#C189D3'},
+ '11': {name: 'Networks', color: '#D18B8B'},
 }
 
 const ccs_names = []
@@ -88,7 +88,7 @@ function computePieData(yearmin, yearmax) {
     'Networks': { name: 'Networks', value: 0 },
   }
   Object.values(references).forEach(v => {
-    if (v.year >= yearmin && v.year <= yearmax) {
+    if (v.year >= yearmin && v.year <= yearmax && v.ccs) {
       pie_data[v.ccs].value++
     }
   })
