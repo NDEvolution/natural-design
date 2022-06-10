@@ -1,3 +1,9 @@
+// Copyright 2022 The Natural Design Authors. All rights reserved.
+// Use of this source code is governed by a GPLv3 license that
+// can be found in the LICENSE file.
+
+// This file includes all included references for the visualization.
+
 const references = {
     "01_hol08": {
         "ccs":"Human-centered Computing",

@@ -1,9 +1,10 @@
-// Grid figure implementation
-// ==========================
+// Copyright 2022 The Natural Design Authors. All rights reserved.
+// Use of this source code is governed by a GPLv3 license that
+// can be found in the LICENSE file.
 
-// sliders
-const bs = ['#slider-definition', '#slider-intention']
-bs.forEach((v, idx) => {
+// This file includes the implementation of the grid visualization.
+
+['#slider-definition', '#slider-intention'].forEach((v, idx) => { // sliders
   $(v).empty().slider({
     min: 1,
     max: 5,
@@ -55,14 +56,11 @@ $('#slider-overall').empty().slider({
 })
 $('#slider-overall').find('.ui-slider-handle').hide();
 
-
-// filters
-let deactivatedFilters = []
-const filters = {
+let deactivatedFilters = [] // filters
+for (const [fid, filter] of Object.entries({
   '#predefined-filters': ['Top-rated','Remaining'], //Origin of clusters
   '#keywords': ['NUI', 'Natural Interaction', 'Computation']
-}
-for (const [fid, filter] of Object.entries(filters)) {
+})) {
   filter.forEach(v => {
     $(fid).append(
     $('<div/>', {
@@ -108,7 +106,6 @@ for (const [fid, filter] of Object.entries(filters)) {
   })
 }
 
-
 const gridFig = echarts.init(document.getElementById('grid-fig'))
 gridFig.setOption(computeOption())
 gridFig.on('click', params => {
@@ -123,9 +120,9 @@ gridFig.on('click', params => {
     $('#grid-reference').append($(`<p>${references[params.data[2]].section}</p>`))
     return
   }
-  // if nothing is selected, then delete!
-  $('#grid-reference').remove()
+  $('#grid-reference').remove() // if nothing is selected, then delete!
 })
+
 // helpers
 function computeOption() {
   return {
@@ -150,9 +147,9 @@ function computeOption() {
           lineHeight: 70,
           fontWeight: 'bolder',
         },
-        axisLabel: { show: false},
-        axisLine: { show: false },
-        axisTick: { show: false },
+        axisLabel: { show: false },
+        axisLine:  { show: false },
+        axisTick:  { show: false },
         splitLine: { show: false },
         show: true,
         type: 'value',
@@ -169,9 +166,9 @@ function computeOption() {
           lineHeight: 70,
           fontWeight: 'bolder',
         },
-        axisLabel: { show: false},
-        axisLine: { show: false },
-        axisTick: { show: false },
+        axisLabel: { show: false },
+        axisLine:  { show: false },
+        axisTick:  { show: false },
         splitLine: { show: false },
         show: true,
         type: 'value',
@@ -186,9 +183,6 @@ function computeGrids() {
   const d = computeGridOrganizedData()
   const grids = []
   const score_color = [
-    // ???
-    // '#F7F8F8', // not selected area of slider
-    // '#DDDEDD', // grey od grid
     '#E1EDDC', // 1
     '#C3DBBA', // 2
     '#88B775', // 3
@@ -199,9 +193,7 @@ function computeGrids() {
     grids.push({
       name: `${i+1}`, // z
       symbolSize: 18,
-      data: [
-        // x, y
-      ],
+      data: [ /* x, y */ ],
       type: 'scatter',
       symbol: 'rect',
       itemStyle: {
@@ -244,12 +236,7 @@ function computeGridOrganizedData() {
   let sum = 0
   let count = 0
   for (const [id, v] of Object.entries(references)) {
-    if (deactivatedFilters.indexOf(v.category) === -1 && 
-    deactivatedFilters.indexOf(v.keyword) == -1 ///&&
-    // v.scores[0] >= $('#slider-definition').slider('option', 'value') &&
-    // v.scores[1] >= $('#slider-intention').slider('option', 'value') &&
-    // v.scores[2] >= $('#slider-property').slider('option', 'value')
-    ){
+    if (deactivatedFilters.indexOf(v.category) === -1 && deactivatedFilters.indexOf(v.keyword) == -1){
       v.id = id
       d[v.scores[0]-1][v.scores[1]-1].push(v)
 
@@ -258,7 +245,6 @@ function computeGridOrganizedData() {
     }
   }
   const score = $('#slider-definition').slider('option', 'value')+$('#slider-intention').slider('option', 'value')+$('#slider-property').slider('option', 'value')
-  console.log()
   $('#slider-overall').slider('option', 'value', 100*(score/3-0.5)/(5-1))
 
   // sort z values!
@@ -277,9 +263,9 @@ function computeGridSeries(grids) {
     markLine: {
         silent: true,
         symbol: 'none',
-        label: { 
-          show: true, 
-          position: 'start', 
+        label: {
+          show: true,
+          position: 'start',
           color: 'black',
           fontSize: 15
         },
